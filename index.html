@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NMLS – Instinct in Every Scent</title>
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-50 text-neutral-900 font-sans">
+
+  <!-- Header dengan background image + fallback -->
+  <header 
+    class="relative bg-gradient-to-r from-black via-neutral-800 to-black bg-cover bg-center h-40" 
+    style="background-image: url('nmls.png');">
+    
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-6 h-full flex items-center justify-between text-white">
+      <div class="flex items-center gap-4">
+        <img src="nmls.png" alt="NMLS" class="w-12 h-12 bg-white p-1 rounded-full" />
+        <div>
+          <h1 class="text-xl font-bold tracking-wide">NMLS</h1>
+          <p class="text-xs uppercase text-neutral-200">Instinct in Every Scent</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="#collections" class="hover:underline">Collections</a>
+        <a href="#membership" class="hover:underline">Membership</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-16 bg-gradient-to-br from-white via-neutral-100 to-white">
+    <h2 class="text-4xl font-bold mb-4">Instinct in Every Scent</h2>
+    <p class="text-neutral-700 max-w-2xl mx-auto mb-6">
+      NMLS meracik setiap aroma dengan intuisi dan karakter. Koleksi kami mengambil inspirasi dari alam dan simbol — swan, owl, lion — untuk menghadirkan wangi yang memikat.
+    </p>
+    <a href="#collections" class="bg-black text-white px-6 py-3 rounded-md">Explore Collection</a>
+  </section>
+
+  <!-- Collections -->
+  <section id="collections" class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-2xl font-semibold text-center mb-10">Collections</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Produk 1 -->
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="swan.png" alt="Swan Grace Major (50ml)" class="h-48 mx-auto object-contain mb-4" />
+        <h4 class="text-lg font-semibold">Swan Grace Major (50ml)</h4>
+        <p class="text-sm text-neutral-500 mb-2">Elegan • Lembut • Anggun</p>
+        <p class="text-lg font-bold text-black-600">Rp 185.000</p>
+        <button class="mt-3 w-full bg-black text-white py-2 rounded-lg hover:bg-neutral-800">+ Keranjang</button>
+      </div>
+
+      <!-- Produk 2 -->
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="owl.png" alt="Owl Essence Major (50ml)" class="h-48 mx-auto object-contain mb-4" />
+        <h4 class="text-lg font-semibold">Owl Essence Major (50ml)</h4>
+        <p class="text-sm text-neutral-500 mb-2">Bijak • Tenang • Misterius</p>
+        <p class="text-lg font-bold text-black-600">Rp 185.000</p>
+        <button class="mt-3 w-full bg-black text-white py-2 rounded-lg hover:bg-neutral-800">+ Keranjang</button>
+      </div>
+
+      <!-- Produk 3 -->
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="lion.png" alt="Lion Emblem Major (50ml)" class="h-48 mx-auto object-contain mb-4" />
+        <h4 class="text-lg font-semibold">Lion Emblem Major (50ml)</h4>
+        <p class="text-sm text-neutral-500 mb-2">Kuat • Percaya Diri • Berkarisma</p>
+        <p class="text-lg font-bold text-black-600">Rp 185.000</p>
+        <button class="mt-3 w-full bg-black text-white py-2 rounded-lg hover:bg-neutral-800">+ Keranjang</button>
+      </div>
+
+      <!-- Produk 4 -->
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="produk4.png" alt="Lion Emblem Minor (15ml)" class="h-48 mx-auto object-contain mb-4" />
+        <h4 class="text-lg font-semibold">Lion Emblem Minor (15ml)</h4>
+        <p class="text-sm text-neutral-500 mb-2">TRAVEL SIZE</p>
+        <p class="text-lg font-bold text-black-600">Rp 85.000</p>
+        <button class="mt-3 w-full bg-black text-white py-2 rounded-lg hover:bg-neutral-800">+ Keranjang</button>
+      </div>
+
+      <!-- Produk 5 -->
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="produk5.png" alt="Owl Essence Minor (15ml)" class="h-48 mx-auto object-contain mb-4" />
+        <h4 class="text-lg font-semibold">Owl Essence Minor (15ml)</h4>
+        <p class="text-sm text-neutral-500 mb-2">TRAVEL SIZE</p>
+        <p class="text-lg font-bold text-black-600">Rp 85.000</p>
+        <button class="mt-3 w-full bg-black text-white py-2 rounded-lg hover:bg-neutral-800">+ Keranjang</button>
+      </div>
+
+      <!-- Produk 6 -->
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="produk6.png" alt="Swan Grace Minor (15ml)" class="h-48 mx-auto object-contain mb-4" />
+        <h4 class="text-lg font-semibold">Swan Grace Minor (15ml)</h4>
+        <p class="text-sm text-neutral-500 mb-2">TRAVEL SIZE</p>
+        <p class="text-lg font-bold text-black-600">Rp 85.000</p>
+        <button class="mt-3 w-full bg-black text-white py-2 rounded-lg hover:bg-neutral-800">+ Keranjang</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Membership -->
+  <section id="membership" class="bg-neutral-100 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-2xl font-semibold text-center mb-10">Membership</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- Bronze -->
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h4 class="text-xl font-bold mb-2 text-amber-700">Local</h4>
+          <p class="text-neutral-500 mb-4">Buat Yang MAU WANGI</p>
+          <ul class="text-sm space-y-2 mb-4">
+            <li>• Diskon 50.000 di pembelian berikutnya</li>
+            <li>• Akses ke campaign eksklusif #IndonesiaWangi (prioritas info promo)</li>
+          </ul>
+          <button class="bg-amber-700 text-white px-6 py-2 rounded-lg">Join Bronze</button>
+        </div>
+
+        <!-- Silver -->
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h4 class="text-xl font-bold mb-2 text-gray-500">Designer</h4>
+          <p class="text-neutral-500 mb-4">Buat Yang Mau TAMBAH WANGI</p>
+          <ul class="text-sm space-y-2 mb-4">
+            <li>• Diskon 10% S/D 100.000 untuk semua pembelian.</li>
+            <li>• dapet akses reffil dengan harga potongan (85rb)</li>
+            <li>• Undangan ke event NMLS Pop-Up Store Experience.</li>
+          </ul>
+          <button class="bg-gray-500 text-white px-6 py-2 rounded-lg">Join Silver</button>
+        </div>
+
+        <!-- Gold -->
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h4 class="text-xl font-bold mb-2 text-yellow-500">Niche</h4>
+          <p class="text-neutral-500 mb-4">UDAH WANGI INIMAH</p>
+          <ul class="text-sm space-y-2 mb-4">
+            <li>• Diskon 15% sd/ Rp.200.000 + tambahan voucher Rp100.000</li>
+            <li>• Free exclusive mini bottle tiap bulan</li>
+            <li>• Parfum full size (50ml) gratis di bulan ulang tahun member.</li>
+            <li>• Early access ke parfum edisi baru (1 minggu sebelum launching)</li>
+          </ul>
+          <button class="bg-yellow-500 text-white px-6 py-2 rounded-lg">Join Gold</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+  <footer id="contact" class="bg-black text-white py-8 mt-10">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h4 class="text-lg font-semibold mb-2">NMLS Perfume</h4>
+      <p class="text-sm mb-2">Contact us: info@nmls.com | +62 812-3456-7890</p>
+      
+      <!-- Instagram -->
+      <div class="flex items-center justify-center gap-2 mb-4">
+        <!-- Ikon Instagram -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-pink-500" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.88a1.13 1.13 0 1 1-2.25 0 1.13 1.13 0 0 1 2.25 0z"/>
+        </svg>
+        <a href="https://instagram.com/nmls.id" target="_blank" class="hover:underline">@nmls.id</a>
+      </div>
+
+      <p class="text-xs text-neutral-400">#INDONESIAWANGI</p>
+    </div>
+  </footer>
+
+</body>
+</html>
